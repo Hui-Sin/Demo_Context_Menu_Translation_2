@@ -11,6 +11,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     TextView tvTranslatedText;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,8 +49,6 @@ public class MainActivity extends AppCompatActivity {
        } else {
            tvTranslatedText.setText("Error translation");
        }
-
         return super.onContextItemSelected(item);
     }
-
 }
